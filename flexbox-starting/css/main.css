@@ -1,0 +1,55 @@
+/**
+* Layout Defaults
+**/
+html {
+  box-sizing: border-box;
+  height: 100%;
+}
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+img {
+  max-width: 100%;
+}
+
+/**
+* Utility classes
+**/
+
+.container {
+  padding: 1rem;
+  max-width: 60rem;
+  margin: auto;
+}
+
+/**
+* Variables
+*/
+:root {
+  --font-sans: "Work Sans", sans-serif;
+  --color-primary: #140858;
+  --color-orange: #fe9804;
+  --color-pink: #fe006c;
+}
+
+/**
+* Typography
+*/
+body {
+  font-family: var(--font-sans);
+  color: var(--color-primary);
+  min-height: 100%;
+  line-height: 1.4;
+}
+
+.hero {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 152, 6, 1) 0%,
+    rgba(255, 0, 108, 1) 100%
+  );
+  min-height: 30rem;
+}
